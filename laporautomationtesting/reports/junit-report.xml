@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="insert-aspirasi-to-website;user-insert-to-aspirasi" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI TELKOM/moci/00/features/InsertAspirasi.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse home page lapor" classname="insert-aspirasi-to-website;user-insert-to-aspirasi" time="0.0007493">
+        </testcase>
+        <testcase name="And Start to type your And step here user click Aspirasi button" classname="insert-aspirasi-to-website;user-insert-to-aspirasi" time="0.0002664">
+        </testcase>
+        <testcase name="And Start to type your And step here user fill to Judul laporan" classname="insert-aspirasi-to-website;user-insert-to-aspirasi" time="0.0001557">
+        </testcase>
+        <testcase name="And Start to type your And step here user fill to laporan" classname="insert-aspirasi-to-website;user-insert-to-aspirasi" time="0.0001709">
+        </testcase>
+        <testcase name="And Start to type your And step here user fill to asal pelapor" classname="insert-aspirasi-to-website;user-insert-to-aspirasi" time="0.0001754">
+        </testcase>
+        <testcase name="And Start to type your And step here user fill to instansi tujuan" classname="insert-aspirasi-to-website;user-insert-to-aspirasi" time="0.0002005">
+        </testcase>
+        <testcase name="And Start to type your And step here user fill to kategori laporan" classname="insert-aspirasi-to-website;user-insert-to-aspirasi" time="0.0003546">
+        </testcase>
+        <testcase name="When Start to type your When step here user click Anonim" classname="insert-aspirasi-to-website;user-insert-to-aspirasi" time="0.0001256">
+        </testcase>
+        <testcase name="Then user click lapor" classname="insert-aspirasi-to-website;user-insert-to-aspirasi" time="0.0001191">
+        </testcase>
+    </testsuite>
+    <testsuite name="insert-aspirasi-to-website;user-insert-to-aspirasi-failed" tests="9" failures="1" skipped="2">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI TELKOM/moci/00/features/InsertAspirasiFailed.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse home page Failed" classname="insert-aspirasi-to-website;user-insert-to-aspirasi-failed" time="0.000722">
+        </testcase>
+        <testcase name="And here user click Aspirasi button Failed" classname="insert-aspirasi-to-website;user-insert-to-aspirasi-failed" time="0.000105">
+        </testcase>
+        <testcase name="And here user fill to Judul laporan Failed" classname="insert-aspirasi-to-website;user-insert-to-aspirasi-failed" time="0.000103">
+        </testcase>
+        <testcase name="And here user fill to laporan Failed" classname="insert-aspirasi-to-website;user-insert-to-aspirasi-failed" time="0.0001052">
+        </testcase>
+        <testcase name="And here user fill to asal pelapor Failed" classname="insert-aspirasi-to-website;user-insert-to-aspirasi-failed" time="0.0001592">
+        </testcase>
+        <testcase name="And here user fill to instansi tujuan Failed" classname="insert-aspirasi-to-website;user-insert-to-aspirasi-failed" time="0.000139">
+        </testcase>
+        <testcase name="And here user fill to kategori laporan Failed" classname="insert-aspirasi-to-website;user-insert-to-aspirasi-failed" time="22.5892553">
+            <failure message="TypeError: page.fieldLaporanInformasi.performFill is not a function">TypeError: page.fieldLaporanInformasi.performFill is not a function
+    at D:\KULIAH\DTI TELKOM\moci\00\step-definitions\InsertAspirasiFailed-steps.js:25:41
+    at ManagedPromise.invokeCallback_ (D:\KULIAH\DTI TELKOM\moci\00\node_modules\selenium-webdriver\lib\promise.js:1384:14)
+    at TaskQueue.execute_ (D:\KULIAH\DTI TELKOM\moci\00\node_modules\selenium-webdriver\lib\promise.js:3092:14)
+    at TaskQueue.executeNext_ (D:\KULIAH\DTI TELKOM\moci\00\node_modules\selenium-webdriver\lib\promise.js:3075:27)
+    at D:\KULIAH\DTI TELKOM\moci\00\node_modules\selenium-webdriver\lib\promise.js:2935:27
+    at D:\KULIAH\DTI TELKOM\moci\00\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+        </testcase>
+        <testcase name="When step here user click Anonim Failed" classname="insert-aspirasi-to-website;user-insert-to-aspirasi-failed">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then user click lapor Failed" classname="insert-aspirasi-to-website;user-insert-to-aspirasi-failed">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="insert-aspirasi-rahasia-to-website;user-insert-to-aspirasi-and-click-rahasia" tests="9" failures="0" skipped="3">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI TELKOM/moci/00/features/InsertAspirasiRahasia.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse home page Rahasia" classname="insert-aspirasi-rahasia-to-website;user-insert-to-aspirasi-and-click-rahasia" time="0.0001861">
+        </testcase>
+        <testcase name="And user click Aspirasi button Rahasia" classname="insert-aspirasi-rahasia-to-website;user-insert-to-aspirasi-and-click-rahasia" time="0.0000999">
+        </testcase>
+        <testcase name="And user fill to Judul laporan Rahasia" classname="insert-aspirasi-rahasia-to-website;user-insert-to-aspirasi-and-click-rahasia" time="0.0000944">
+        </testcase>
+        <testcase name="And user fill to laporan Rahasia" classname="insert-aspirasi-rahasia-to-website;user-insert-to-aspirasi-and-click-rahasia" time="0.0001338">
+        </testcase>
+        <testcase name="And user fill to asal pelapor Rahasia" classname="insert-aspirasi-rahasia-to-website;user-insert-to-aspirasi-and-click-rahasia" time="0.0001371">
+        </testcase>
+        <testcase name="And user fill to instansi tujuan Rahasia" classname="insert-aspirasi-rahasia-to-website;user-insert-to-aspirasi-and-click-rahasia" time="0.0001291">
+        </testcase>
+        <testcase name="And user fill to kategori laporan Rahasia" classname="insert-aspirasi-rahasia-to-website;user-insert-to-aspirasi-and-click-rahasia">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When user click Rahasia" classname="insert-aspirasi-rahasia-to-website;user-insert-to-aspirasi-and-click-rahasia">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then user click lapor Rahasia" classname="insert-aspirasi-rahasia-to-website;user-insert-to-aspirasi-and-click-rahasia">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI TELKOM/moci/00/features/InsertPermintaanInformasi.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse home page Informasi button" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi" time="0.0002675">
+        </testcase>
+        <testcase name="And user click Informasi button" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi" time="0.0001388">
+        </testcase>
+        <testcase name="And user fill to Judul laporan Permintaan Informasi" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi" time="0.0002037">
+        </testcase>
+        <testcase name="And user fill to laporan Permintaan Informasi" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi" time="0.0001184">
+        </testcase>
+        <testcase name="And user fill to asal pelapor Permintaan Informasi" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi" time="0.0001087">
+        </testcase>
+        <testcase name="And user fill to instansi tujuan Permintaan Informasi" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi" time="0.0001017">
+        </testcase>
+        <testcase name="And user fill to kategori laporan Permintaan Informasi" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi" time="0.0001218">
+        </testcase>
+        <testcase name="When user click Anonim Permintaan Informasi" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi" time="0.0001064">
+        </testcase>
+        <testcase name="Then user click lapor Permintaan Informasi" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi" time="0.0001018">
+        </testcase>
+    </testsuite>
+    <testsuite name="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-to-rahasia" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI TELKOM/moci/00/features/InsertPermintaanInformasiRahasia.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse home page Permintaan Informasi Rahasia" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-to-rahasia" time="0.0002809">
+        </testcase>
+        <testcase name="And user click Permintaan Informasi Rahasia" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-to-rahasia" time="0.0001381">
+        </testcase>
+        <testcase name="And user fill to Judul laporan Permintaan Informasi Rahasia" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-to-rahasia" time="0.0001295">
+        </testcase>
+        <testcase name="And user fill to laporan Permintaan Informasi Rahasia" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-to-rahasia" time="0.0001064">
+        </testcase>
+        <testcase name="And user fill to asal pelapor Permintaan Informasi Rahasia" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-to-rahasia" time="0.0001029">
+        </testcase>
+        <testcase name="And user fill to instansi tujuan Permintaan Informasi Rahasia" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-to-rahasia" time="0.000145">
+        </testcase>
+        <testcase name="And user fill to kategori laporan Permintaan Informasi Rahasia" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-to-rahasia" time="0.0001351">
+        </testcase>
+        <testcase name="When user click Rahasia Permintaan Informasi Rahasia" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-to-rahasia" time="0.0001984">
+        </testcase>
+        <testcase name="Then user click lapor Permintaan Informasi Rahasia" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-to-rahasia" time="0.0001">
+        </testcase>
+    </testsuite>
+    <testsuite name="insert-laporan-pengaduan-sudah-login;user-insert-to-pengaduan" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI TELKOM/moci/00/features/lapor-pengaduan.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse home page" classname="insert-laporan-pengaduan-sudah-login;user-insert-to-pengaduan" time="0.0002212">
+        </testcase>
+        <testcase name="And user fill to Judul laporan" classname="insert-laporan-pengaduan-sudah-login;user-insert-to-pengaduan" time="0.0001613">
+        </testcase>
+        <testcase name="And user fill to isi laporan" classname="insert-laporan-pengaduan-sudah-login;user-insert-to-pengaduan" time="0.0001312">
+        </testcase>
+        <testcase name="And user fill to Tanggal kejadian" classname="insert-laporan-pengaduan-sudah-login;user-insert-to-pengaduan" time="0.0001197">
+        </testcase>
+        <testcase name="And user fill to Lokasi kejadian" classname="insert-laporan-pengaduan-sudah-login;user-insert-to-pengaduan" time="0.0001092">
+        </testcase>
+        <testcase name="And user fill to Instansi tujuan" classname="insert-laporan-pengaduan-sudah-login;user-insert-to-pengaduan" time="0.0001027">
+        </testcase>
+        <testcase name="When user fill to Kategori laporan" classname="insert-laporan-pengaduan-sudah-login;user-insert-to-pengaduan" time="0.0000656">
+        </testcase>
+        <testcase name="Then user click lapor button" classname="insert-laporan-pengaduan-sudah-login;user-insert-to-pengaduan" time="0.0000593">
+        </testcase>
+    </testsuite>
+    <testsuite name="insert-laporan-pengaduan-belum-login;user-insert-to-pengaduan-belum-login" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI TELKOM/moci/00/features/lapor-pengaduan2.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse home page2" classname="insert-laporan-pengaduan-belum-login;user-insert-to-pengaduan-belum-login" time="0.000239">
+        </testcase>
+        <testcase name="And user fill to Judul laporan2" classname="insert-laporan-pengaduan-belum-login;user-insert-to-pengaduan-belum-login" time="0.0001282">
+        </testcase>
+        <testcase name="And user fill to isi laporan2" classname="insert-laporan-pengaduan-belum-login;user-insert-to-pengaduan-belum-login" time="0.0001278">
+        </testcase>
+        <testcase name="And user fill to Tanggal kejadian2" classname="insert-laporan-pengaduan-belum-login;user-insert-to-pengaduan-belum-login" time="0.0001158">
+        </testcase>
+        <testcase name="And user fill to Lokasi kejadian2" classname="insert-laporan-pengaduan-belum-login;user-insert-to-pengaduan-belum-login" time="0.0001008">
+        </testcase>
+        <testcase name="And user fill to Instansi tujuan2" classname="insert-laporan-pengaduan-belum-login;user-insert-to-pengaduan-belum-login" time="0.0000908">
+        </testcase>
+        <testcase name="When user fill to Kategori laporan2" classname="insert-laporan-pengaduan-belum-login;user-insert-to-pengaduan-belum-login" time="0.000216">
+        </testcase>
+        <testcase name="Then user click lapor button2" classname="insert-laporan-pengaduan-belum-login;user-insert-to-pengaduan-belum-login" time="0.0000817">
+        </testcase>
+    </testsuite>
+    <testsuite name="user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong;user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI TELKOM/moci/00/features/lapor-pengaduan3.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse home page3" classname="user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong;user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong" time="0.0001976">
+        </testcase>
+        <testcase name="And user fill to Judul laporan3" classname="user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong;user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong" time="0.0001492">
+        </testcase>
+        <testcase name="And user fill to isi laporan3" classname="user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong;user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong" time="0.0001322">
+        </testcase>
+        <testcase name="And user fill to Tanggal kejadian3" classname="user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong;user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong" time="0.0001052">
+        </testcase>
+        <testcase name="And user fill to Lokasi kejadian3" classname="user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong;user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong" time="0.000102">
+        </testcase>
+        <testcase name="When user fill to Instansi tujuan3" classname="user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong;user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong" time="0.000111">
+        </testcase>
+        <testcase name="Then user click lapor button3" classname="user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong;user-gagal-insert-to-pengaduan-karena-field-kategori-dikosong" time="0.0001122">
+        </testcase>
+    </testsuite>
+    <testsuite name="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-and-failed" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI TELKOM/moci/00/features/PermintaanInformasiFailed.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse home page Informasi button failed" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-and-failed" time="0.0002283">
+        </testcase>
+        <testcase name="And user click Informasi button failed" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-and-failed" time="0.0003903">
+        </testcase>
+        <testcase name="And user fill to Judul laporan Permintaan Informasi failed" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-and-failed" time="0.0001371">
+        </testcase>
+        <testcase name="And user fill to laporan Permintaan Informasi failed" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-and-failed" time="0.0001359">
+        </testcase>
+        <testcase name="And user fill to asal pelapor Permintaan Informasi failed" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-and-failed" time="0.0001021">
+        </testcase>
+        <testcase name="And user fill to instansi tujuan Permintaan Informasi failed" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-and-failed" time="0.000098">
+        </testcase>
+        <testcase name="And user fill to kategori laporan Permintaan Informasi failed" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-and-failed" time="0.0001107">
+        </testcase>
+        <testcase name="When user click Anonim Permintaan Informasi failed" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-and-failed" time="0.0000964">
+        </testcase>
+        <testcase name="Then user click lapor Permintaan Informasi failed" classname="insert-permintaan-informasi-to-website;user-insert-to-permintaan-informasi-and-failed" time="0.0001107">
+        </testcase>
+    </testsuite>
+    <testsuite name="registrasi;user-success-to-daftar-on-the-website" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI TELKOM/moci/00/features/registrasi.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse daftar page" classname="registrasi;user-success-to-daftar-on-the-website" time="0.0004345">
+        </testcase>
+        <testcase name="And user fill namaLengkap to daftar" classname="registrasi;user-success-to-daftar-on-the-website" time="0.0007451">
+        </testcase>
+        <testcase name="And user fill email to daftar" classname="registrasi;user-success-to-daftar-on-the-website" time="0.0001316">
+        </testcase>
+        <testcase name="And user fill password to daftar" classname="registrasi;user-success-to-daftar-on-the-website" time="0.000121">
+        </testcase>
+        <testcase name="And user fill username to daftar" classname="registrasi;user-success-to-daftar-on-the-website" time="0.0001131">
+        </testcase>
+        <testcase name="And user fill notelp to daftar" classname="registrasi;user-success-to-daftar-on-the-website" time="0.0001449">
+        </testcase>
+        <testcase name="And user confirm password to daftar" classname="registrasi;user-success-to-daftar-on-the-website" time="0.0001043">
+        </testcase>
+        <testcase name="And user ceklist box privacy policy" classname="registrasi;user-success-to-daftar-on-the-website" time="0.0004296">
+        </testcase>
+        <testcase name="When user click daftar button" classname="registrasi;user-success-to-daftar-on-the-website" time="0.0001956">
+        </testcase>
+        <testcase name="Then user can see home page" classname="registrasi;user-success-to-daftar-on-the-website" time="0.0002962">
+        </testcase>
+    </testsuite>
+    <testsuite name="registrasi2;pengguna-gagal-melakukan-pendaftaran" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="@notsuccess" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI TELKOM/moci/00/features/registrasi2.feature">
+            </property>
+        </properties>
+        <testcase name="Given pengguna mencari halaman daftar" classname="registrasi2;pengguna-gagal-melakukan-pendaftaran" time="0.0002389">
+        </testcase>
+        <testcase name="And pengguna mengisi namaLengkap untuk daftar" classname="registrasi2;pengguna-gagal-melakukan-pendaftaran" time="0.0001534">
+        </testcase>
+        <testcase name="And pengguna mengisi email untuk daftar" classname="registrasi2;pengguna-gagal-melakukan-pendaftaran" time="0.0001164">
+        </testcase>
+        <testcase name="And pengguna mengisi password untuk daftar" classname="registrasi2;pengguna-gagal-melakukan-pendaftaran" time="0.0000913">
+        </testcase>
+        <testcase name="And pengguna mengisi username untuk daftar" classname="registrasi2;pengguna-gagal-melakukan-pendaftaran" time="0.0000902">
+        </testcase>
+        <testcase name="And pengguna mengisi notelp untuk daftar" classname="registrasi2;pengguna-gagal-melakukan-pendaftaran" time="0.0000925">
+        </testcase>
+        <testcase name="And pengguna mengkonfirmasi password untuk daftar" classname="registrasi2;pengguna-gagal-melakukan-pendaftaran" time="0.0001066">
+        </testcase>
+        <testcase name="And pengguna menceklist box keamanan" classname="registrasi2;pengguna-gagal-melakukan-pendaftaran" time="0.0003613">
+        </testcase>
+        <testcase name="When pengguna klik tombol daftar" classname="registrasi2;pengguna-gagal-melakukan-pendaftaran" time="0.0001415">
+        </testcase>
+        <testcase name="Then pengguna diarahkan ke halaman home" classname="registrasi2;pengguna-gagal-melakukan-pendaftaran" time="0.0002197">
+        </testcase>
+    </testsuite>
+    <testsuite name="signin-on-the-website;user-success-to-sigin-on-the-website-with-email" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI TELKOM/moci/00/features/signin.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse signin page" classname="signin-on-the-website;user-success-to-sigin-on-the-website-with-email" time="0.0003252">
+        </testcase>
+        <testcase name="And user fill email field" classname="signin-on-the-website;user-success-to-sigin-on-the-website-with-email" time="0.0001286">
+        </testcase>
+        <testcase name="When user fill password field" classname="signin-on-the-website;user-success-to-sigin-on-the-website-with-email" time="0.0001322">
+        </testcase>
+        <testcase name="Then user click login button" classname="signin-on-the-website;user-success-to-sigin-on-the-website-with-email" time="0.0001273">
+        </testcase>
+    </testsuite>
+    <testsuite name="signin-on-the-website;user-failed-to-log-in" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI TELKOM/moci/00/features/signin2.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browser log in page" classname="signin-on-the-website;user-failed-to-log-in" time="0.0002175">
+        </testcase>
+        <testcase name="And user fill wrong email field" classname="signin-on-the-website;user-failed-to-log-in" time="0.0001664">
+        </testcase>
+        <testcase name="When user fill wrong password field" classname="signin-on-the-website;user-failed-to-log-in" time="0.0001297">
+        </testcase>
+        <testcase name="Then user click button to login" classname="signin-on-the-website;user-failed-to-log-in" time="0.0000911">
+        </testcase>
+    </testsuite>
+</testsuites>
