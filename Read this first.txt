@@ -1,0 +1,3 @@
+After you clone this repository, you must run this in your terminal first before you execute the all of code:
+
+npm install selenium-cucumber-js --save-dev
